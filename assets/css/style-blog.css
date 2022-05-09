@@ -37,7 +37,7 @@
     justify-content: space-between !important;
 }
 .blog-main-text{
-    font-size: 18px;
+    font-size: 19px;
     opacity: 0.8;
 }
 .blog-main-corse{
@@ -76,4 +76,7 @@
 }
 .mts{
     margin-top: 21px;
+}
+.main-header{
+    height: 46px;
 }
