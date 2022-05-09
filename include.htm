@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang chủ</title>
+
+    <link
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/home.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div id="menu">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light menu">
+            <a class="navbar-brand" href="#"> </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CỬA HÀNG</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">DỊCH VỤ</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">DỰ ÁN</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">VỀ CHÚNG TÔI</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">BLOG</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">LIÊN HỆ</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav nav-2">
+                <li class="nav-item icon-nav">
+                  <input
+                    type="text"
+                    placeholder="Tìm kiếm"
+                    class="icon"
+                    id="search"
+                  />
+                  <a class="nav-link" style="cursor: pointer" class="search"
+                    ><img src="assets/images/search.png" alt=""
+                  /></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href=""
+                    ><img src="assets/images/Line 1.png" alt=""
+                  /></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href=""
+                    ><img src="assets/images/user.png" alt=""
+                  /></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href=""
+                    ><img src="assets/images/heart.png" alt=""
+                  /></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href=""
+                    ><img src="assets/images/cart.png" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div id="banner">
+        <div class="container">
+          <img src="assets/images/banner.jpg" alt="" />
+          <div class="col-6 banner-text">
+            <p>MANG "SỰ BÌNH YÊN"</p>
+            <div class="banner-text-info">
+              <p>ĐẾN VỚi BẠN</p>
+            </div>
+            <p>Thưởng thức "thiên nhiên" được giao đến kho của bạn</p>
+            <div class="">
+              <button
+                type="button"
+                class="btn btn-default btn-dark form-control"
+              >
+                MUA NGAY
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide" id="slide">
+      <div class="container">
+        <div class="slide-content d-flex">
+          <div class="col-4">
+            <div class="col-3">
+              <img src="assets/images/support-1.png" alt="" class="img-fluid" />
+            </div>
+            <div class="col-9"><p>GIAO HÀNG NHANH TRÊN TOÀN QUỐC</p></div>
+          </div>
+          <div class="col-4">
+            <div class="col-3">
+              <img src="assets/images/support-2.png" class="img-fluid" />
+            </div>
+            <div class="col-9"><p>THANH TOÁN TIỆN LỢI VÀ AN TOÀN</p></div>
+          </div>
+          <div class="col-4">
+            <div class="col-3">
+              <img src="assets/images/support-3.png" alt="" class="img-fluid" />
+            </div>
+            <div class="col-9"><p>MUA HÀNG OFFLINE VÀ ONLINE</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script>
+    $(".search").click(function () {
+      $("#search").show("slow");
+      var x = document.getElementById("search");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    });
+  </script>
+</html>
+<style>
+  .menu {
+    padding: 0;
+  }
+  #banner .container img {
+    position: relative;
+  }
+  #banner .banner-text {
+    position: absolute;
+  }
+  .header .row ul {
+    justify-content: space-evenly;
+  }
+  .header .row ul li a {
+    text-decoration: none;
+    line-height: 45px;
+    color: #a2a2a2;
+    font-size: 17px;
+    font-family: "Roboto-medium";
+    font-weight: normal;
+  }
+  .header .icon {
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid #a2a2a2;
+    position: absolute;
+    right: 20%;
+    width: 185px;
+    margin-top: 8px;
+
+    font-size: 12px;
+    outline: none;
+    background: none;
+    /* display: none; */
+  }
+
+  .header .search {
+    position: relative;
+    margin-left: 125px;
+  }
+
+  .header {
+    background-image: url(../images/Group\ 4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  /* header end */
+  /*cate start*/
+  .item-text {
+    display: flex;
+    justify-content: space-between;
+  }
+  .item-text-4 {
+    padding-top: 20px;
+  }
+  .cate .row .col-4:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .intro-text-2 {
+    margin-top: 90px;
+  }
+  /* intro end */
+  .respone .row {
+    align-items: center;
+  }
+  /* service begin */
+  .service {
+    margin-top: 150px;
+  }
+  .item-image {
+    position: relative;
+  }
+  /* .cate{
+    width:calc(100% -12px);
+} */
+  /* .cate .item-padding-0{
+    padding-left:0 !important;
+    padding-right:0 !important;
+
+   
+} */
+  .item-image img {
+    width: 100%;
+  }
+  .item-image:hover {
+    background-color: rgba(8, 8, 8, 0.5);
+  }
+  .item-image:hover img {
+    opacity: 0.3;
+  }
+  .item-image:hover .mask {
+    opacity: 1;
+    color: #fff;
+  }
+
+  .item-image .mask {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+  }
+  .service-1,
+  .service-2,
+  .service-3,
+  .service-4 {
+    border-top: 1px solid #707070;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .service-5 {
+    justify-content: end;
+  }
+  .service-button {
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .service-button a {
+    color: #000;
+  }
+  .service-img img {
+    width: 100%;
+  }
+  .service-text {
+    margin-left: 20%;
+  }
+  /*menu-end*/
+  .slide-description h1 {
+    transform: rotate(270deg);
+    position: absolute;
+  }
+  .space-intro {
+    height: 143px;
+  }
+  .space-intro-1 {
+    height: 20px;
+  }
+  #intro-col .col-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .line {
+    height: 1px;
+    background-color: black;
+    width: 80px;
+  }
+  .intro-text {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  /*footer start*/
+  #slide .container .slide-content {
+    margin-top: 40px;
+    border-top: 1px solid #707070;
+    padding-top: 60px;
+  }
+  #slide .container .col-4 {
+    display: flex;
+  }
+
+  .slide-content p {
+    font-family: "Playfair+Display";
+  }
+  /*footer end*/
+
+  @media only screen and (max-width: 1024px) {
+    .header .icon {
+      width: 130px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .header .icon {
+      width: 130px;
+    }
+    .menu .nav-2 {
+      display: none;
+    }
+  }
+</style>
