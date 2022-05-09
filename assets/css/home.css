@@ -22,126 +22,6 @@ body{
     background-color: #FFFEF7;
 }
 /* header */
-/* header .menu{
-
-} */
-
-
-#slider .image_siler img{
-    width: 100%;
-    object-fit: cover;
-    height: fit-content;
-}
-#slider{
-    width: 100%;
-}
-#slider .content_slider{
-    margin-top: 55px;
-}
-#slider .content_slider .logo_slider_hard p{
-    color:#252617 ;
-    font-family: "Roboto";
-    font-size: 30px;
-    width: max-content;
-}
-#slider .content_slider .logo_slider_hard{   
-    margin-left: 10%;
-    transform: rotate(-90deg);
-    margin-top: 70px;
-}
-#slider .content_one{
-    color: #252617;
-    font-size: 40px;
-}
-#slider .content_logo{
-    display: -webkit-inline-box;
-}
-#slider .content_bottom{
-    display: -webkit-box;
-    width: 340px;
-}
-.button-left,
-#slider .button-left,
-#slider .button-right {
-    width: 50px;
-    height: 50px;
-    border: 1px solid;
-    border-radius: 50%;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    position: relative;
-  }
-.button-left a,
-.button-right a,
-  #slider .button-left a,
-#slider .button-right a {
-    color: #000;
-    font-size: 35px;
-    padding-bottom: 15px;
-  }
-
-#slider .box-content_sub{
-    color: #252617;
-    font-size: 30px;
-    margin-left: 35px;
-}
-#slider .bg_boder{
-    width: 70%;
-    margin-top: 25px;
-}
-#slider .content_two_slider{
-    width: 43%;
-    margin: 0 auto;
-}
-#slider .content_button{
-    margin-top: 80px;
-}
-#slider .content_two_slider p{
-    font-family: "Roboto";
-    font-size: 18px;
-    color: #252617;
-}
-#slider .buy_button{
-    text-align: center;
-    margin-right: 70px;
-    margin-top: 60px;
-}
-#slider .buy_button button{
-    background: black;
-    width: 247px;
-    height: 58px;
-    border: none;
-}
-#slider .buy_button a{
-    text-decoration: none;
-    color: #fff;
-    font-family: "Roboto";
-}
-
-#slider .icon_slider_left{
-    display: flex;
-    color: #A2A2A2;
-    justify-content: flex-start;
-    margin-left: 25px;
-}
-#slider .icon_slider_left .bg-icon{
-   width: 10%;
-}
-#slider .icon_slider_left i{
-    padding: 0 20px;
-    font-size: 30px;
- }
- #slider .icon-arrow{
-    display: flex;
-    justify-content: flex-end;
- }
-
- #slider .icon_slider{
-    margin-top: 30px ;
- }
-
-
 header .menu .home-icon{
     height: 25px;
     border: none;
@@ -166,6 +46,58 @@ header {
     background-image: url(../images/Group\ 4.png);
     background-position: center;
     background-repeat: no-repeat;
+}
+/* banner */
+.banner_text--top{
+  margin-top: 80px;
+
+}
+.banner_text--mid {
+  margin-top: 32px;
+}
+.banner_text--bot button{
+  margin-top: 32px;
+  background-color: #252617;
+  height: 56px;
+}
+.banner_text--bot button a{
+ color: #fff;
+ text-decoration: none;
+}
+.banner_content--left h1{
+  padding-top: 28px;
+}
+.banner_icon{
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+  font-size: 36px;
+}
+.banner_content--bot .hr--line{
+  margin: 16px 0;
+}
+.banner_content--left {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+.hr--line {
+  height:1px;
+  background-color: #000;
+}
+.button-left {
+  width:40px;
+  height: 40px;
+  border-radius:100%;
+  text-align: center;
+  border: 1px solid #000;
+  position:relative;
+}
+.button-left a{
+  top: 44%;
+    left: 50%;
+    line-height: 40px;
+    transform: translate(-50%, -50%);
+  position:absolute;
 }
 /* owl-carousel */
 
@@ -216,15 +148,14 @@ header {
 .item-image img {
   width: 100%;
 }
-.cate_context--mask:hover {
-  background-color: #707070;
-}
-.cate_context--mask:hover img {
-  opacity: 0.3;
-}
+
+
 .cate_context--mask:hover .mask {
   opacity: 1;
   color: #fff;
+  background-color: #7070704d;
+  width: 100%;
+  height: 100%;
 }
 
 .cate_context--mask .mask {
@@ -233,6 +164,13 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
+}
+.cate_context--mask .mask--icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
 .service-item-right{
   border-top: 1px solid #707070;
@@ -473,3 +411,9 @@ footer {
       width:50px
     }
     }
+    @media only screen and (max-width: 1200px) and (min-width: 1024px) {
+      .navbar-expand-lg .navbar-nav .nav-link{
+        padding:0;
+      }
+    }
+    

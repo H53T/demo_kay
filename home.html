@@ -17,13 +17,18 @@
     <link rel="stylesheet" href="assets/css/home.css" />
   </head>
   <body>
-    <header>
+    <header class="container-lg">
       <div class="menu">
-        <div class="container">
+        <div class="container-lg">
           <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="./home.html">
-                <img src="assets/images/logo/Logo KayXau-01.png" alt="" />
+                <img
+                  class="w-100"
+                  src="assets/images/logo/Logo KayXau-01.png"
+                  alt=""
+                  class="w-100"
+                />
               </a>
               <button
                 class="navbar-toggler"
@@ -37,20 +42,20 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-0 ms-md-0 ms-lg-5 mb-2 mb-lg-0">
-                  <li class="nav-item me-2 ms-2">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav--mid">
+                  <li class="nav-item me-lg-2 ms-lg-2">
                     <a class="nav-link" href="./page-Keyxau/shop.html"
                       >CỬA HÀNG</a
                     >
                   </li>
 
-                  <li class="nav-item me-2 ms-2">
+                  <li class="nav-item me-lg-2 ms-lg-2">
                     <a class="nav-link" href="./page-Keyxau/service.html"
                       >DỊCH VỤ</a
                     >
                   </li>
 
-                  <li class="nav-item me-2 ms-2">
+                  <li class="nav-item me-lg-2 ms-lg-2">
                     <a
                       class="nav-link"
                       href="./page-Keyxau/detail-portforlio.html"
@@ -58,44 +63,47 @@
                     >
                   </li>
 
-                  <li class="nav-item me-2 ms-2">
+                  <li class="nav-item me-lg-2 ms-lg-2">
                     <a class="nav-link" href="./page-Keyxau/about-us.html"
                       >VỀ CHÚNG TÔI</a
                     >
                   </li>
 
-                  <li class="nav-item me-2 ms-2">
+                  <li class="nav-item me-lg-2 ms-lg-2">
                     <a class="nav-link" href="./page-Keyxau/blog.html">BLOG</a>
                   </li>
-                  <li class="nav-item me-2 ms-2">
-                    <a class="nav-link" href="#">LIÊN HỆ</a>
+                  <li class="nav-item me-lg-2 ms-lg-2">
+                    <a class="nav-link" href="./page-Keyxau/contact.html"
+                      >LIÊN HỆ</a
+                    >
                   </li>
                 </ul>
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item menu-icon-nav li-d-none">
-                    <input
+                    <!-- <input
                       type="text"
                       placeholder="Tìm kiếm"
                       class="home-icon"
-                    />
+                    /> -->
                     <a class="nav-link" class="home-icon-button"
-                      ><img src="assets/images/search.png" alt=""
-                    /></a>
+                      ><i class="fas fa-search"></i></a>
                   </li>
                   <li class="nav-item li-d-none">
-                    <a class="nav-link" href=""
-                      ><img src="assets/images/Line 1.png" alt=""
+                    <a class="nav-link" href="#"
+                      ><img class="w-100" src="../assets/images/Line 1.png" alt=""
                     /></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href=""
-                      ><img src="assets/images/user.png" alt=""
-                    /></a>
+                    <a class="nav-link" href="./page-Keyxau/login.html"
+                      ><i class="far fa-user"></i></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href=""
-                      ><img src="assets/images/heart.png" alt=""
-                    /></a>
+                    <a class="nav-link" href="./page-Keyxau/favorite.html"
+                      ><i class="fal fa-heart"></i></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./page-Keyxau/cart.html"
+                      ><i class="fal fa-shopping-basket"></i></a>
                   </li>
                 </ul>
               </div>
@@ -104,56 +112,97 @@
         </div>
       </div>
       <div class="home-banner">
-        <div id="slider" class="container-fluid">
-          <div class="row">
-            <div class="col-6">
-              <div class="content_slider">
-                <div class="content_logo">
-                  <div class="logo_slider_hard">
-                    <p>KAAY XAU</p>
+        <div class="container-lg banner_content--top">
+          <div class="owl-carousel-banner  owl-theme">
+            <div class="item">
+              <div class="row">
+                  <div class="col-lg-6">
+                    <div class="row">
+                      <div class="col-lg-2 banner_content--left">
+                        <h1 class="ms-0 me-0 mb-5 text-center">KAAY XAU</h1>
+                      </div>
+                      <div class="col-lg-10">
+                        <div class="banner_text--top">
+                          <h1>MANG "SỰ BÌNH YÊN"</h1>
+                          <div class="text--mid d-flex">
+                            <hr class="hr--line col-lg-8"></hr>
+                            <div class="col-lg-4 ms-auto text-center">ĐẾN VỚI BẠN</div>
+                          </div>
+                        </div>
+                        <div class="banner_text--mid">
+                          <div class="col-lg-10 ">
+                            <h3>Thưởng thức "thiên nhiên" được giao đến cho của bạn</h3>  
+                          </div>
+                        </div>
+                        <div class="banner_text--bot">
+                          <button class="col-md-4"><a href="">Mua Ngay</a></button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="content_slider_beetwen">
-                    <p class="content_one">MANG "SỰ BÌNH YÊN"</p>
-                    <div class="content_bottom">
-                      <hr class="bg_boder" />
-                      <span class="box-content_sub">ĐẾN VỚI BẠN</span>
+                  <div class="col-lg-6">
+                    <div class="image_siler">
+                      <img class="w-100" src="./assets/images/Home-1-real.png" alt="" />
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="content_button">
-                <div class="content_two_slider">
-                  <p>Thưởng thức "thiên nhiên" được giao đến cho của bạn</p>
+           
+          </div>
+            <div class="item">
+            
+              <div class="row">
+                 <div class="col-lg-6">
+                   <div class="row">
+                     <div class="col-lg-2 banner_content--left">
+                       <h1 class="ms-0 me-0 mb-5 text-center">KAAY XAU</h1>
+                     </div>
+                     <div class="col-lg-10">
+                       <div class="banner_text--top">
+                         <h1>MANG "SỰ BÌNH YÊN"</h1>
+                         <div class="text--mid d-flex">
+                           <hr class="hr--line col-lg-8"></hr>
+                           <div class="col-lg-4 ms-auto text-center">ĐẾN VỚI BẠN</div>
+                         </div>
+                       </div>
+                       <div class="banner_text--mid">
+                         <div class="col-lg-10 ">
+                           <h3>Thưởng thức "thiên nhiên" được giao đến cho của bạn</h3>  
+                         </div>
+                       </div>
+                       <div class="banner_text--bot">
+                         <button class="col-md-4"><a href="">Mua Ngay</a></button>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="col-lg-6">
+                   <div class="image_siler">
+                     <img class="w-100" src="./assets/images/Home-2.png" alt="" />
+                   </div>
+                 </div>
                 </div>
-                <div class="buy_button">
-                  <button><a href="">Mua Ngay</a></button>
-                </div>
-              </div>
-            </div>
-            <div class="col-6">
-              <div class="image_siler">
-                <img src="./assets/images/Home-1-real.png" alt="" />
-              </div>
             </div>
           </div>
 
-          <div class="icon_slider container">
+          <div class="banner_content--bot">
             <div class="row">
-              <div class="col-6">
-                <div class="icon_slider_left">
-                  <hr class="bg-icon" />
-                  <i class="fab fa-instagram"></i>
-                  <i class="fab fa-twitter"></i>
-                  <i class="fab fa-facebook-f"></i>
-                  <hr class="bg-icon" />
+              <div class="col-lg-6">
+                <div class="row">
+                  <hr class="col-lg-2 hr--line" />
+                  <div class="col-lg-4 banner_icon">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook"></i>
+                  </div>
+                  <hr class="col-lg-2 hr--line" />
                 </div>
               </div>
-              <div class="col-6">
-                <div class="icon-arrow">
-                  <div class="button-left">
+              <div class="col-lg-6">
+                <div class="icon-arrow row justify-content-end">
+                  <div class="button-left col-lg-2">
                     <a href="" class="nav-link"> &larr;</a>
                   </div>
-                  <div class="button-right">
+                  <div class="button-right col-lg-2">
                     <a href="" class="nav-link"> &rarr;</a>
                   </div>
                 </div>
@@ -171,7 +220,7 @@
               <div
                 class="col-6 col-md-4 col-lg-4 d-flex flex-column justify-content-between"
               >
-                <img src="assets/images/intro.png" alt="" class="img-fluid" />
+                <img class="w-100" src="assets/images/intro.png" alt="" />
                 <div class="intro-text">
                   <p>KÂY XẤU</p>
                   <p class="line"></p>
@@ -179,7 +228,7 @@
               </div>
               <div class="col-6 col-md-8 col-lg-8 ms-md-2">
                 <div class="space-intro"></div>
-                <img src="assets/images/intro-2.png" alt="" class="img-fluid" />
+                <img class="w-100" src="assets/images/intro-2.png" alt="" />
                 <div class="space-intro-1"></div>
               </div>
             </div>
@@ -225,35 +274,41 @@
                   <div class="text--center">&rarr;</div>
                 </div>
                 <div class="item-image">
-                  <img src="assets/images/cate-1.png" alt="" />
+                  <img class="w-100" src="assets/images/cate-1.png" alt="" />
                 </div>
-                <div class="mask">MUA NGAY</div>
+                <div class="mask">
+                  <div class="mask--icon">MUA NGAY</div>
+                </div>
               </div>
             </div>
             <div class="col-4 item-padding-0">
               <div class="cate_context--mask">
                 <div class="item-1">
                   <div class="item-image">
-                    <img src="assets/images/cate-2.png" alt="" />
+                    <img class="w-100" src="assets/images/cate-2.png" alt="" />
                   </div>
                   <div class="item-text">
                     <div class="text--center">CHẬU CÂY</div>
                     <div class="text--center">&rarr;</div>
                   </div>
                 </div>
-                <div class="mask">MUA NGAY</div>
+                <div class="mask">
+                  <div class="mask--icon">MUA NGAY</div>
+                </div>
               </div>
               <div class="cate_context--mask">
                 <div class="item-2">
                   <div class="item-image">
-                    <img src="assets/images/cate-3.png" alt="" />
+                    <img class="w-100" src="assets/images/cate-3.png" alt="" />
                   </div>
                   <div class="item-text">
                     <div class="text--center">CHĂM SÓC</div>
                     <div class="text--center">&rarr;</div>
                   </div>
                 </div>
-                <div class="mask">MUA NGAY</div>
+                <div class="mask">
+                  <div class="mask--icon">MUA NGAY</div>
+                </div>
               </div>
             </div>
             <div class="col-4 item-padding-0">
@@ -263,9 +318,11 @@
                   <div class="text--center">&rarr;</div>
                 </div>
                 <div class="item-image">
-                  <img src="assets/images/cate-4.png" alt="" />
+                  <img class="w-100" src="assets/images/cate-4.png" alt="" />
                 </div>
-                <div class="mask">MUA NGAY</div>
+                <div class="mask">
+                  <div class="mask--icon">MUA NGAY</div>
+                </div>
               </div>
             </div>
           </div>
@@ -346,10 +403,18 @@
                     </span>
                     <div class="position-absolute translate-middle icon--mask">
                       <div class="icon--hover badge">
-                        <img src="assets/images/cart.png" alt="" />
+                        <img
+                          class="w-100"
+                          src="assets/images/cart.png"
+                          alt=""
+                        />
                       </div>
                       <div class="icon--hover badge">
-                        <img src="assets/images/heart.png" alt="" />
+                        <img
+                          class="w-100"
+                          src="assets/images/heart.png"
+                          alt=""
+                        />
                       </div>
                     </div>
                   </div>
@@ -458,16 +523,16 @@
                 </div>
               </div>
               <div class="item-2">
-                <img src="assets/images/blog-3.png" alt="" class="img-fluid" />
+                <img class="w-100" src="assets/images/blog-3.png" alt="" />
               </div>
             </div>
             <div class="col-12 col-md-5 col-lg-5">
               <div class="item-3">
-                <img src="assets/images/blog-1.png" alt="" class="img-fluid" />
+                <img class="w-100" src="assets/images/blog-1.png" alt="" />
               </div>
               <div class="item-4">
                 <div class="image-blog">
-                  <img src="assets/images/02.png" alt="" />
+                  <img  src="assets/images/02.png" alt="" />
                 </div>
                 <p>
                   Cách chăm sóc cây cảnh trong nhà để cây luôn xanh và phát
@@ -496,7 +561,7 @@
           <div class="support-content row">
             <div class="col-12 col-md-4 col-lg-4 support-item">
               <div class="col-3 col-md-3 col-lg-3">
-                <img src="assets/images/support-1.png" alt="" />
+                <img class="img-fluid" src="assets/images/support-1.png" alt="" />
               </div>
               <div class="col-6 col-md-9 col-lg-6">
                 <p>GIAO HÀNG NHANH TRÊN TOÀN QUỐC</p>
@@ -504,7 +569,7 @@
             </div>
             <div class="col-12 col-md-4 col-lg-4 support-item">
               <div class="col-3 col-md-3 col-lg-3">
-                <img src="assets/images/support-2.png" />
+                <img class="img-fluid" src="assets/images/support-2.png" />
               </div>
               <div class="col-6 col-md-9 col-lg-6">
                 <p>THANH TOÁN TIỆN LỢI VÀ AN TOÀN</p>
@@ -512,7 +577,7 @@
             </div>
             <div class="col-12 col-md-4 col-lg-4 support-item">
               <div class="col-3 col-md-3 col-lg-3">
-                <img src="assets/images/support-3.png" alt="" />
+                <img class="img-fluid" src="assets/images/support-3.png" alt="" />
               </div>
               <div class="col-6 col-md-9 col-lg-6">
                 <p>MUA HÀNG OFFLINE VÀ ONLINE</p>
@@ -522,7 +587,7 @@
         </div>
       </div>
     </main>
-    <footer>
+    <footer class="container-lg">
       <div class="container p-0">
         <div class="text">
           <p>KÂY XẤU</p>
@@ -585,6 +650,25 @@
         },
         1000: {
           items: 4,
+        },
+      },
+    });
+    $(".owl-carousel-banner").owlCarousel({
+      mouseDrag: false,
+      loop: false,
+      dots: false,
+      nav: false,
+      margin: 10,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        600: {
+          items: 1,
+        },
+        1000: {
+          items: 1,
         },
       },
     });

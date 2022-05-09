@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.blog-banner{
+    position: relative;
+}
+.blog-banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.blog-input-select select{
+    padding: 10px;
+    padding-right: 20px;    
+}
+
+.blog-input-find input{
+    padding: 9px 21px;  
+}
+
+
+.blog-input-find button{
+    height: 46px;
+    background-color: black;
+    padding: 0 30px;
+
+}
+
+.clwhite{
+    color: white;
+}
+.blog-input-header{
+    justify-content: space-between !important;
+}
+.blog-main-text{
+    font-size: 18px;
+    opacity: 0.8;
+}
+.blog-main-corse{
+    opacity: 0.8;
+}
+.blog-main-pages{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;    
+    margin-left: 20px;
+}
+.blog-main-changepages{
+    align-items: flex-end;
+}
+.blog-main-followme-icon i{
+    font-size: 20px;
+    padding-right: 20px;
+}
+.blog-main-blog-text{
+    font-size: 13px;
+}
+.blog-main-blog-day{
+    font-size: 12px;
+    color: green;
+}
+.blog-main-btn{
+    padding: 4px 20px;
+    background-color: black;
+    color: white;
+    
+}
+.blog-main-tag-btn{
+    padding: 5px 10px;
+    background: white;
+    
+}
+.mts{
+    margin-top: 21px;
+}
