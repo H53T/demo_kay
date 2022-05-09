@@ -16,72 +16,6 @@
   font-family: "Roboto-bold";
   src: url(./KayXau/assets/fonts/Roboto-Bold.ttf);
 }
-.menu {
-  height: 183px;
-}
-
-.menu .row {
-  line-height: 120px;
-}
-
-.header-icon {
-  display: none;
-}
-.header-list a {
-  display: inline-block;
-}
-@media screen and (max-width: 780px) {
-  .app-header {
-    position: relative;
-  }
-  .header-icon {
-    display: block;
-    position: absolute;
-    right: 10%;
-    cursor: pointer;
-  }
-  .header-list,
-  .header-categories {
-    display: none;
-  }
-}
-.app-header .row ul {
-  justify-content: space-evenly;
-}
-
-.app-header .row ul li a {
-  text-decoration: none;
-  line-height: 45px;
-  color: #a2a2a2;
-  font-size: 17px;
-}
-
-.app-header .icon {
-  height: 25px;
-  border: none;
-  border-bottom: 1px solid #a2a2a2;
-  position: absolute;
-  left: 0;
-  top: 33%;
-  width: 185px;
-  margin-top: 8px;
-  padding: 4px;
-  font-size: 12px;
-  outline: none;
-  background: none;
-  display: none;
-}
-
-.app-header .search {
-  position: relative;
-  margin-left: 125px;
-}
-
-.app-header {
-  background-image: url(../images/Group\ 4.png);
-  background-position: center;
-  background-repeat: no-repeat;
-}
 
 .flex,
 .banner-content {
@@ -90,12 +24,7 @@
   transform: translate(-50%, -50%);
 }
 
-.shop {
-  margin: 50px 0;
-}
-
 .banner {
-  margin-top: -120px;
   position: relative;
 }
 .banner-content {
@@ -260,18 +189,6 @@ input[type="range"]::-webkit-slider-thumb {
   cursor: pointer;
 }
 
-.funtion-kayxau {
-  padding-top: 30px;
-  margin-bottom: 10000px;
-}
-.funtion-kayxau .image-funtion {
-  width: 80px;
-  height: 80px;
-}
-.funtion-kayxau .content-funtion {
-  width: 60%;
-}
-
 .boder-funtion {
   display: flex;
   justify-content: center;
@@ -281,76 +198,10 @@ input[type="range"]::-webkit-slider-thumb {
 .image-funtion {
   margin-right: 20px;
 }
-.footer {
-  margin-top: 100px;
-}
-.footer-nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-.footer-nav .footer-app {
-  border-bottom: 1px solid black;
-}
-.footer-nav .footer-icon {
-  font-size: 30px;
-}
-.footer-nav .footer-icon i {
-  margin-left: 20px;
-  margin-bottom: 60px;
-}
-.footer-nav .nav {
-  margin-bottom: 10px;
-}
-.footer-nav .nav li {
-  margin-left: 10px;
-  font-family: "Roboto-Regular";
-  font-size: 16px;
-  color: #707070;
-}
-.footer-nav p {
-  font-family: "Roboto-Regular";
-  color: #707070;
-  font-size: 16px;
-}
 
 .shop-select {
   padding: 20px;
   padding-right: 100px;
-}
-
-.footer-input {
-  border: none;
-  outline: none;
-  border-bottom: 1px solid black;
-  margin-bottom: 20px;
-  padding: 5px;
-  width: 100%;
-}
-
-.footer-button {
-  color: white;
-  width: 100%;
-}
-
-.footer-title {
-  border-bottom: 1px solid black;
-  font-family: "Roboto-Regular";
-  color: #707070;
-  font-size: 24px;
-}
-
-.footer-notify {
-  font-family: "Roboto-Regular";
-  color: #707070;
-  font-size: 20px;
-}
-.border-bottom-footer {
-  width: 100%;
-  height: 1px;
-  background-color: #252617;
-  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=shop.css.map */

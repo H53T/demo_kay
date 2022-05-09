@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang chủ</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/header-footer.css" />
+    <link rel="stylesheet" href="../assets/css/shop.css" />
+  </head>
+
+  <body>
+    <header class="container-lg">
+      <div class="menu">
+        <div class="container-lg">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../home.html">
+                <img
+                  class="w-100"
+                  src="../assets/images/logo/Logo KayXau-01.png"
+                  alt=""
+                  class="w-100"
+                />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav--mid">
+                  <li class="nav-item me-lg-2 ms-lg-2">
+                    <a class="nav-link" href="./shop.html">CỬA HÀNG</a>
+                  </li>
+
+                  <li class="nav-item me-lg-2 ms-lg-2">
+                    <a class="nav-link" href="./service.html">DỊCH VỤ</a>
+                  </li>
+
+                  <li class="nav-item me-lg-2 ms-lg-2">
+                    <a class="nav-link" href="./detail-portforlio.html"
+                      >DỰ ÁN</a
+                    >
+                  </li>
+
+                  <li class="nav-item me-lg-2 ms-lg-2">
+                    <a class="nav-link" href="./about-us.html">VỀ CHÚNG TÔI</a>
+                  </li>
+
+                  <li class="nav-item me-lg-2 ms-lg-2">
+                    <a class="nav-link" href="./blog.html">BLOG</a>
+                  </li>
+                  <li class="nav-item me-lg-2 ms-lg-2">
+                    <a class="nav-link" href="./contact.html">LIÊN HỆ</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item menu-icon-nav li-d-none search-item">
+                    <input type="text" placeholder="Tìm kiếm" id="search" />
+                    <a class="nav-link" class="home-icon-button"
+                      ><i class="fas fa-search"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item li-d-none">
+                    <a class="nav-link" href="#"
+                      ><img
+                        class="w-100"
+                        src="../assets/images/Line 1.png"
+                        alt=""
+                    /></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./login.html"
+                      ><i class="far fa-user"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./favorite.html"
+                      ><i class="fal fa-heart"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./cart.html"
+                      ><i class="fal fa-shopping-basket"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="shop">
+      <div class="banner">
+        <div class="banner-img">
+          <img
+            src="../assets/images/shop-img/banner.png"
+            class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+            alt=""
+          />
+        </div>
+        <div class="banner-content">
+          <h3>cửa hàng</h3>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7"></div>
+          <div class="col-lg-5">
+            <div class="search-box">
+              <div class="dropdown">
+                <select class="p-2" name="" id="">
+                  <option value="">Sắp xếp theo</option>
+                </select>
+              </div>
+              <div class="search-box-input ml-1">
+                <input type="text" placeholder="Tìm kiếm" />
+                <div class="search-box-input-icon">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="main">
+          <div class="row">
+            <div class="col-lg-3 border-right col-md-3 main-left col-sm-3">
+              <h3>PHÂN LOẠI</h3>
+              <p class="main-left-list">Tất cả</p>
+              <p class="main-left-list">Trong nhà</p>
+              <p class="main-left-list">Ngoài trời</p>
+              <p class="main-left-list">Chậu cây</p>
+              <p class="main-left-list">Chăm sóc</p>
+              <h3 class="mt-5">GIÁ</h3>
+              <h5 class="main-left-price">
+                <span>69.000d</span><span>1.500.000d</span>
+              </h5>
+              <input type="range" />
+              <h3 class="main-left-insta mt-5">INSTAGRAM</h3>
+              <div class="row">
+                <div class="col-lg-4 col-md-6 col-6">
+                  <div class="main-left-insta-img mb-2">
+                    <img
+                      class="card-img"
+                      src="../assets/images/shop-img/a6cc8e3da6f345c0a5d324bb785fcd32.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="main-left-insta-img">
+                    <img
+                      class="card-img"
+                      src="../assets/images/shop-img/banner-10-2.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <!-- <div class="col-lg-0"></div> -->
+                <div class="col-lg-4 col-md-6 col-6">
+                  <div class="main-left-insta-img mb-2">
+                    <img
+                      class="card-img"
+                      src="../assets/images/shop-img/banner-10-3.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="main-left-insta-img">
+                    <img
+                      class="card-img"
+                      src="../assets/images/shop-img/pexels-photo-1500482-1024x576.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <h3 class="mt-5">THEO DÕI TÔI</h3>
+              <div class="icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram-square"></i>
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+              <h3 class="mt-5">BLOG</h3>
+              <div class="blog">
+                <div class="blog-img">
+                  <img
+                    class="card-img"
+                    src="../assets/images/shop-img/blog-1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="blog-content">
+                  <h5>Loại cây tốt nhất cho bạn là gì</h5>
+                  <p>16/4/2022/ từ Wpbingo</p>
+                  <button class="btn btn-dark">Đến</button>
+                </div>
+              </div>
+              <div class="blog">
+                <div class="blog-img">
+                  <img
+                    class="card-img"
+                    src="../assets/images/shop-img/blog-1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="blog-content">
+                  <h5>Cây Trồng Trong Nhà Rất Tốt Cho Sức Khỏe.</h5>
+                  <p>20/10/2022/ Từ Hannah</p>
+                  <button class="btn btn-dark">Đến</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm">
+              <div class="row">
+                <div class="col-lg-4 col-md-6">
+                  <div class="main-product">
+                    <div class="main-product-img">
+                      <img
+                        class="card-img"
+                        src="../assets/images/shop-img/15-8-600x713.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="main-product-sale">Sale</div>
+                    <div class="main-product-content">
+                      <p class="main-product-content-title">Cây lô hội</p>
+                      <p class="main-product-content-price">69.000đ</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="main-product">
+                    <div class="main-product-img">
+                      <img
+                        class="card-img"
+                        src="../assets/images/shop-img/13-2-600x713.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="main-product-sale">Sale</div>
+                    <div class="main-product-content">
+                      <p class="main-product-content-title">Cây sen đá</p>
+                      <p class="main-product-content-price">100.000đ</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="main-product">
+                    <div class="main-product-img">
+                      <img
+                        class="card-img"
+                        src="../assets/images/shop-img/13-6-600x713.png"
+                        alt=""
+                      />
+                    </div>
+                    <!-- <div class="main-product-sale"> -->
+                    <!-- Sale -->
+                    <!-- </div> -->
+                    <div class="main-product-content">
+                      <p class="main-product-content-title">Cây lưỡi hổ</p>
+                      <p class="main-product-content-price">150.000đ</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="main-product">
+                    <div class="main-product-img">
+                      <img
+                        class="card-img"
+                        src="../assets/images/shop-img/11-3-600x713.png"
+                        alt=""
+                      />
+                    </div>
+                    <!-- <div class="main-product-sale"> -->
+                    <!-- Sale -->
+                    <!-- </div> -->
+                    <div class="main-product-content">
+                      <p class="main-product-content-title">Rạng đông</p>
+                      <p class="main-product-content-price">1.200.000đ</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="main-product">
+                    <div class="main-product-img">
+                      <img
+                        class="card-img"
+                        src="../assets/images/shop-img/4-1-600x713.png"
+                        alt=""
+                      />
+                    </div>
+                    <!-- <div class="main-product-sale"> -->
+                    <!-- Sale -->
+                    <!-- </div> -->
+                    <div class="main-product-content">
+                      <p class="main-product-content-title">Rau sam</p>
+                      <p class="main-product-content-price">100.000đ</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="main-product">
+                    <div class="main-product-img">
+                      <img
+                        class="card-img"
+                        src="../assets/images/shop-img/14-3-600x713.png"
+                        alt=""
+                      />
+                    </div>
+                    <!-- <div class="main-product-sale"> -->
+                    <!-- Sale -->
+                    <!-- </div> -->
+                    <div class="main-product-content">
+                      <p class="main-product-content-title">Cây cọ</p>
+                      <p class="main-product-content-price">50.000đ</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="main-product">
+                    <div class="main-product-img">
+                      <img
+                        class="card-img"
+                        src="../assets/images/shop-img/9-600x713.png"
+                        alt=""
+                      />
+                    </div>
+                    <!-- <div class="main-product-sale"> -->
+                    <!-- Sale -->
+                    <!-- </div> -->
+                    <div class="main-product-content">
+                      <p class="main-product-content-title">Cây Devil’s Ivy</p>
+                      <p class="main-product-content-price">180.000đ</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="main-product">
+                    <div class="main-product-img">
+                      <img
+                        class="card-img"
+                        src="../assets/images/shop-img/1-600x713.png"
+                        alt=""
+                      />
+                    </div>
+                    <!-- <div class="main-product-sale">
+                                        Sale
+                                    </div> -->
+                    <div class="main-product-content">
+                      <p class="main-product-content-title">
+                        Cây European Cypress
+                      </p>
+                      <p class="main-product-content-price">79.000đ</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="main-product">
+                    <div class="main-product-img">
+                      <img
+                        class="card-img"
+                        src="../assets/images/shop-img/10-3-600x713.png"
+                        alt=""
+                      />
+                    </div>
+                    <!-- <div class="main-product-sale">
+                                        Sale
+                                    </div> -->
+                    <div class="main-product-content">
+                      <p class="main-product-content-title">
+                        Cây Grey Star Calathea
+                      </p>
+                      <p class="main-product-content-price">90.000đ</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-8"></div>
+                <div class="col-lg-4 shop-number-order">
+                  <p id="number-order">1</p>
+                  <p id="number-order">2</p>
+                  <p id="number-order">3</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="support">
+      <div class="container">
+        <div class="support-content row">
+          <div class="col-12 col-md-4 col-lg-4 support-item">
+            <div class="col-3 col-md-3 col-lg-3">
+              <img
+                class="img-fluid"
+                src="../assets/images/support-1.png"
+                alt=""
+              />
+            </div>
+            <div class="col-6 col-md-9 col-lg-6">
+              <p>GIAO HÀNG NHANH TRÊN TOÀN QUỐC</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4 support-item">
+            <div class="col-3 col-md-3 col-lg-3">
+              <img class="img-fluid" src="../assets/images/support-2.png" />
+            </div>
+            <div class="col-6 col-md-9 col-lg-6">
+              <p>THANH TOÁN TIỆN LỢI VÀ AN TOÀN</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4 support-item">
+            <div class="col-3 col-md-3 col-lg-3">
+              <img
+                class="img-fluid"
+                src="../assets/images/support-3.png"
+                alt=""
+              />
+            </div>
+            <div class="col-6 col-md-9 col-lg-6">
+              <p>MUA HÀNG OFFLINE VÀ ONLINE</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container-lg">
+      <div class="container p-0">
+        <div class="text">
+          <p>KÂY XẤU</p>
+        </div>
+        <hr class="footer-br" />
+        <div class="row mt-5">
+          <div class="col-12 item-left col-lg-3 col-md-12">
+            <p>NHẬN THÔNG BÁO TỪ KÂY XẤU</p>
+            <br class="space-text" />
+            <input
+              type="email"
+              class="form-control col-9"
+              placeholder="E-mail của bạn"
+            />
+            <br class="space-text" />
+            <button type="button" class="form-control col-9">ĐĂNG KÝ</button>
+          </div>
+          <div class="item-right col-12 col-lg-8 col-md-12">
+            <div class="icon-footer">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-pinterest-p"></i>
+            </div>
+            <br class="space-text" />
+            <br class="space-text" />
+            <br class="space-text" />
+            <div class="text-help">
+              <p>Điều khoản sử dụng</p>
+              <p>Chính sách bảo mật</p>
+              <p>Giải quyết khiếu nại</p>
+              <p>Quy chế hoạt động</p>
+            </div>
+            <div class="text-copy">
+              <p>@Copyright 2022 - Kay xau, Inc</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="../assets/js/jquery.min.js"></script>
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/bootstrap.js.map"></script>
+  <script>
+    // $(".search").click(function () {
+    //     $("#search").show("slow");
+    //     var x = document.getElementById("search");
+
+    // });
+
+    // number order
+    const $ = document.querySelectorAll.bind(document);
+    var numberSelect = $("#number-order");
+
+    for (let i = 0; i < numberSelect.length; i++) {
+      numberSelect[i].addEventListener("click", (e) => {
+        e.target.style.backgroundColor = "black";
+        e.target.style.color = "white";
+        e.target.style.transition = "0.25s ease";
+        for (let j = 0; j < numberSelect.length; j++) {
+          if (j !== i) {
+            numberSelect[j].style.backgroundColor = "white";
+            numberSelect[j].style.color = "black";
+          }
+        }
+      });
+    }
+  </script>
+</html>
